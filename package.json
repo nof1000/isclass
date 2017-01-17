@@ -1,0 +1,25 @@
+{
+  "name": "isclass",
+  "version": "0.1.0",
+  "description": "Checks whether a value is an class",
+  "main": "index.js",
+  "author": "Denis Maslennikov <mrdenniska@gmail.com> (nofach.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nof1000/isclass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nof1000/isclass/issues"
+  },
+  "keywords": [
+    "javascript",
+    "predicate",
+    "function",
+    "simplify",
+    "utility",
+    "check",
+    "class",
+    "es6"
+  ]
+}
