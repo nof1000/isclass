@@ -7,18 +7,20 @@
  */
 
 /**
- * Constants
- * @private
- */
-const RE_CLASS = /^class\s/;
-
-/**
  * Exports
  * @public
  */
-module.exports = function(cls) {
-    return (
-        (typeof(cls) === 'function') &&
-        RE_CLASS.test(Function.prototype.toString.call(cls))
-    );
+module.exports = (cls) => {
+    if (typeof(cls) === 'function') {
+        if (cls.prototype) {
+            try {
+                cls.arguments && cls.caller;
+                return false;
+            } catch(e) {
+                return true;
+            }
+        }
+    }
+
+    return false;
 };

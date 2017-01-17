@@ -1,6 +1,6 @@
 {
   "name": "isclass",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Checks whether a value is an class",
   "main": "index.js",
   "author": "Denis Maslennikov <mrdenniska@gmail.com> (nofach.com)",
