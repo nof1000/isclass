@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Denis Maslennikov <mrdenniska@gmail.com> (nofach.com)",
   "license": "MIT",
+  "scripts": {
+      "test": "mocha test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nof1000/isclass.git"
@@ -21,5 +24,8 @@
     "check",
     "class",
     "es6"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  }
 }
