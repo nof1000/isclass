@@ -1,5 +1,5 @@
 # isClass
-> Checks whether a value is an class
+> Checks whether a value is class
 
 ## Install
 npm:

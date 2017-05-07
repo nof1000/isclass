@@ -1,5 +1,5 @@
 /**
- * Checks whether a value is an class
+ * Checks whether a value is class
  *
  * @module isclass
  * @author Denis Maslennikov <mrdenniska@gmail.com> (nofach.com)
