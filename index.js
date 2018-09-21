@@ -11,16 +11,12 @@
  * @public
  */
 module.exports = (cls) => {
-    if (typeof(cls) === 'function') {
-        if (cls.prototype) {
-            try {
-                cls.arguments && cls.caller;
-                return false;
-            } catch(e) {
-                return true;
-            }
+    if (typeof(cls) === 'function' && cls.prototype) {
+        try {
+            cls.arguments && cls.caller;
+        } catch(e) {
+            return true;
         }
     }
-
     return false;
 };
